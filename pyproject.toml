@@ -25,6 +25,8 @@ test = ["pytest"]
 
 [project.urls]
 Homepage = "https://apify.com/alhadikhan/google-trends-compare"
+Repository = "https://github.com/alhadikhan/pytrends-ladder"
+Issues = "https://github.com/alhadikhan/pytrends-ladder/issues"
 "Share of Search" = "https://apify.com/alhadikhan/share-of-search"
 
 [tool.hatch.build.targets.wheel]
