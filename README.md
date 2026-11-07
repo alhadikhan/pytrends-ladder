@@ -34,7 +34,7 @@ from pytrends_ladder import Trends
 trends = Trends()   # reads APIFY_TOKEN
 
 # Keywords on one scale. Use brackets for one meaning, or Label=TopicID for an exact Google topic
-df = trends.compare(["pytorch", "tensorflow", "Rust (programming language)", "ChatGPT=/g/11khcfz0y2"])
+df = trends.compare(["pytorch", "tensorflow", "Python (programming language)", "ChatGPT=/g/11khcfz0y2"])
 
 # Share of search: each brand's % of all the brands' searches, per month, quarter or year
 shares = trends.share_of_search(["Samsung", "Vivo", "Apple", "Realme", "Oppo", "Xiaomi"],
@@ -65,7 +65,7 @@ Each call runs an Apify Actor and costs **$0.02 per run + $0.002 per keyword**, 
 
 ## Limits
 
-- Plain words count every meaning: "go" counts the English word, not the language. Use `golang`, a bracket hint like `Rust (programming language)`, or a topic ID.
+- Plain words count every meaning: "go" counts the English word, not the language. Use `golang`, a bracket hint like `Python (programming language)`, or a topic ID.
 - Values are relative interest (0–100), not search counts. That's what Google Trends provides.
 - Up to 100 keywords per call.
 - Google serves slightly different samples. Expect around 1% variation between runs.
