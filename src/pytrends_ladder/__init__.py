@@ -3,4 +3,4 @@ from .client import Trends
 from .request import TrendReq
 
 __all__ = ["Trends", "TrendReq"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
