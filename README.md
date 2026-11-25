@@ -61,7 +61,7 @@ In the same test, tools that round to whole numbers lost 6 of the 12 keywords.
 1. Create a free account at [apify.com](https://apify.com).
 2. Copy your API token from **Settings → API & Integrations**.
 
-Each call runs an Apify Actor and costs **$0.02 per run + $0.002 per keyword**, or $0.01 per brand for share of search. So 100 keywords cost about $0.22. Apify's free plan includes monthly credit to try it.
+Each call runs an Apify Actor and costs **$0.002 per keyword** (or $0.01 per brand for share of search), with no start fee. So 100 keywords cost about $0.20. Apify's free plan includes monthly credit to try it.
 
 ## Limits
 
